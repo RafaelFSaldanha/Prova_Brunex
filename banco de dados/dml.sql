@@ -1,11 +1,9 @@
-use provaVilaoDB;
-
-insert into tb_vilao (nm_vilao, ds_maldades, bt_super_poder)
-	values ("Thanos", "Destruiu o mundo", true);
-insert into tb_vilao (nm_vilao, ds_maldades, bt_super_poder)
-	values ("Coringa", "Que homem", false);
-
-select * from tb_vilao;
+insert  INTO TB_VILAO (NM_VILAO,DS_MALDADE,BT_SUPER_PODER)
+VALUES ('TANTO FAZ','TANTO FAZ',TRUE OR FALSE);
 
 
-drop table tb_vilao;
+Select 
+nm_vilao		nome,
+ds_maldade		maldade,
+bt_super_poder	TemPoder
+from tb_vilao;
