@@ -1,6 +1,5 @@
 import { con } from './Connection.js'
 
-
 export async function NovoVilao(Vilao) {
     const comando = `
     insert  INTO TB_VILAO (NM_VILAO,DS_MALDADE,BT_SUPER_PODER)
